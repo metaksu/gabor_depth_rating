@@ -11,4 +11,10 @@ A receptive field can be mathematically represented by a 2D Gabor Wavelet (A Gau
 
 Utilizing python, a 2D Gabor wavelet can be generated given paramaters for each eye.
 
-The two filters can then be double convolved upon a stereoscopic image
+The two filters can then be double convolved upon an autostereogram (a picture that has been filtered to have depth at 3 circular areas).
+
+The result is an image showing where on the autostereogram the receptive fields were "stimulated"
+
+Each pair of gabor wavelets (receptive fields) is then scored based on it's ability to detect depth in the CORRECT areas of the autostereogram.
+(A filter would be discounted points for detecting depth where it shouldnt)
+
