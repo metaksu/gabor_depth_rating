@@ -18,3 +18,6 @@ The result is an image showing where on the autostereogram the receptive fields 
 Each pair of gabor wavelets (receptive fields) is then scored based on it's ability to detect depth in the CORRECT areas of the autostereogram.
 (A filter would be discounted points for detecting depth where it shouldnt)
 
+CHECK depth_perception_rating_metric.ipynb for resultant data and images of this product.
+
+If an error occurs make sure to press "reload"
